@@ -1,5 +1,5 @@
 const contributions = {
-    1: "The compiler had done for a week."
+    1: ""
 }
 
 const addContributionsInHTML = () => {
