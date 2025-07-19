@@ -1,0 +1,55 @@
+
+
+.position-relative{
+    position: relative;
+}
+
+.d-bl1-intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+    height: auto;
+}
+
+.d-bl1-pd{
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+.d-txt-bl1-1{
+    height: auto;
+    p{
+        font-weight: 700;
+        font-size: 30px;
+        color: var(--text-color);
+    }
+}
+
+.d-txt-bl1-2{
+    p{
+        font-weight: 100;
+        color: white;
+    }
+}
+
+
+.d-rl-bl1-2{
+    justify-content: flex-start;
+}
+
+.d-rl-bl1-2 a{
+    display: inline-block;
+    .si{
+        height: 39px;
+        width: 39px;
+        border-radius: 100%;
+    }
+}
+
+.d-pc-rl2{
+    padding: 30px 20px;
+}

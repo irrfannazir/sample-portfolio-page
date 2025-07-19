@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  line-height: 1.25;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.us{
+  user-select: none;         
+  -webkit-user-select: none; 
+  -moz-user-select: none;    
+  -ms-user-select: none;     
+}
+
+ul, ol {
+  margin-bottom: 1em;
+  padding-left: 1.25em;
+}
+
+li {
+  margin-bottom: 0.25em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: solid 1px;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover,
+button:focus {
+  color: white;
+}
+
+input, select, textarea {
+  font: inherit;
+  padding: 0.5em;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #1a73e8;
+  box-shadow: 0 0 3px #1a73e8;
+}
+
+header{
+  width: 100vw;
+}
+
+/* Container to showcase something inside it */
+.c {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Block to display the container */
+.block{
+  height: 95vh;
+  width: 100vw;
+}
+
+/* The contents will be in center */
+.centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjust according  */
+.adjustable{
+  *{
+    width: auto;
+    height: auto;
+  }
+}
+
+/* Icons */
+.si{
+  border: solid 1px;
+  backdrop-filter: blur(30px);
+}
+
+.test{
+    height: 100%;
+    background: grey;
+}

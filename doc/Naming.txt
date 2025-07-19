@@ -1,0 +1,33 @@
+Naming
+    We follow a rule protocol for naming each component in
+    website development.
+
+Classes
+    > Try to name the classes with properties for minimalized
+    changes (Considered this rule only if you are not using Tailwind
+    CSS or other frameworks).
+    > Number the class with order in html after '-' if there is
+    more than one with different properties. Only Continue to
+    program html
+    > (Optional) Specify the parent elemets with specified number
+    not after '-'
+    > Name a class with it purpose. Here are common purposes.
+        tb - Topbar
+        lg - Logo
+        rl - Redirect Links
+        cc - Centered Container
+        pc - Padded Container
+        fc - Flexible Container
+        bl - Simple Block
+    > (Optional) The first single letter word specifies the
+    HTML element.
+        d - div    
+        n - nav
+        t - p
+        h - h1, h2, h3, h4, h5, h6
+        s - span
+        a - a
+    > The non-single letter which named before the single
+    letter.
+        txt - The element to display text.
+

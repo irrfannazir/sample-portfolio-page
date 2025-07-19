@@ -1,0 +1,36 @@
+.d-bl-4{
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 90vh;
+}
+
+.d-ge-1{
+    h1{
+        width: 100%;
+        text-align: center;
+        padding: 70px;  
+        color: var(--color-first-shade);      
+    }
+}
+
+.d-bl-ls-ge2{
+    width: 750px;
+    height: 480px;
+    border-top: solid 1px var(--faded-mid-color);
+    border-bottom: solid 1px var(--faded-mid-color);
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    p{
+        margin: 30px;
+    }
+    .dot{
+        width: 5px;
+        height: 5px;
+        background: linear-gradient(120deg, var(--background-color) -40%, var(--color-last-shade) 120%);
+        display: inline-block;
+        margin: 2.5px 10px 2.5px 5px;
+        border-radius: 100%;
+    }
+}
+

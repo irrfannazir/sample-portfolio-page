@@ -1,0 +1,40 @@
+/* @media (min-width: var(--min-desktop-width)){} */
+
+.d-bl-1{
+    display: grid;
+    /* grid-template-rows: var(--top-bar-length) 1fr; */
+    background: radial-gradient(
+        circle at 40% 0%,
+        var(--color-first-shade) -90%,
+        rgba(0, 0, 0, 0) 50%
+    );
+    background-color: none;
+}
+
+.d-bl1-bg{
+    position: absolute;
+    z-index: -99;
+    background: radial-gradient(
+        circle at 90% 20%,
+        var(--color-first-shade) -50%,
+        var(--color-darker-shade) 50%
+        );
+    width: 100vw;
+}
+    
+.d-bl1-bg::before{
+    content: '';
+    display: inline-block;    
+    position: absolute;
+    z-index: -99;
+    background: radial-gradient(
+        circle at -20% 140%,
+        var(--color-first-shade) -70%,
+        rgba(0, 0, 0, 0) 50%
+    );
+}
+
+.d-bl-2{
+    background-color: var(--background-color);
+}
+

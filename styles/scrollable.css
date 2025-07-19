@@ -1,0 +1,16 @@
+.scrollable{
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.scrollable::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar{
+    position: relative;
+    width: 4px;
+    height: 100%;
+    background-color: grey;
+    border-radius: 40px;
+}

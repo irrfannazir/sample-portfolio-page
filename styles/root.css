@@ -1,0 +1,49 @@
+:root{
+  --background-color: black;
+  --faded-mid-color: rgba(107, 107, 107, 0.281);
+  --light-color: white;
+  --text-color: rgb(204, 191, 230);
+  --color-darker-shade: hsl(260, 59%, 13%);
+  --color-first-shade: rgb(73, 35, 148);
+  --color-last-shade: rgb(134, 85, 229);
+  --top-bar-length: 80px;
+  --min-desktop-width: 1025px;
+  --max-phone-width: 600px;
+  --standard-gradient-deg: 50deg;
+}
+
+[data-theme="dark"] *{
+  color: white;
+}
+
+[data-theme="light"] *{
+  color: black;
+}
+
+
+
+/*
+@media (prefers-color-scheme: light){
+  :root{
+    --background-color: white;
+    --text-color: black;
+    --color-first-shade: rgb(229, 221, 255);
+    --color-last-shade: rgb(180, 167, 255);
+  }
+}
+
+
+:root[data-theme="dark"] {
+  --background-color: black;
+  --text-color:rgb(134, 85, 229);
+  --color-darker-shade: hsl(257, 100%, 2%);
+  --color-first-shade: rgb(47, 24, 94);
+  --color-last-shade: rgb(204, 191, 230);
+}
+
+:root[data-theme="light"] {
+  --background-color: white;
+  --text-color: black;
+  --color-first-shade: rgb(134, 85, 229);
+  --color-last-shade: rgb(47, 24, 94);
+} */
