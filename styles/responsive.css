@@ -1,0 +1,14 @@
+@media (max-width: 821px){
+    .d-lss-bl3, .d-lss-bl2, .d-bl-ls-ge2{
+        display: none;
+    }
+    html{
+        width: auto;
+    }
+}
+
+@media (max-width: 533px){
+    .d-rl1-txt{
+        display: none;
+    }
+}

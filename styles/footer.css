@@ -1,5 +1,5 @@
 .d-f{
-    background: var(--color-darker-shade);
+    background: var(--light-color);
 }
 
 .d-rc-1{
@@ -10,11 +10,12 @@
         font-size: 11px;
         margin-bottom: 5px;
         margin-top: 40px;
+        color: var(--background-color);
     }
 }
 
 .d-rc-2 p{
     margin: 10px;
-    color: gray;
+    color: var(--background-color);
     font-size: 11px;
 }

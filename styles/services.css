@@ -66,31 +66,3 @@
     align-items: center;
 }
 
-/* 
-.d-txt-pa{
-    height: var(--achievement-hieght);
-    h1{
-        color: var(--text-color);
-    }
-}
-
-.d-gc-bl2-1{
-    max-height: calc(90vh - var(--achievement-hieght));
-    background-color: black;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.d-ge-gc1{
-    display: flex;
-    justify-content: center;
-}
-
-
-.d-gb-gc1{
-    width: 350px;
-    height: 450px;
-    border-radius: 20px;
-    background-color: white;
-} */
-

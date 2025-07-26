@@ -1,5 +1,5 @@
 const contributions = {
-    1: ""
+    // 1: ""
 }
 
 const addContributionsInHTML = () => {

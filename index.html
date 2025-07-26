@@ -14,122 +14,124 @@
     <link rel="stylesheet" href="styles/scrollable.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/contribution.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <title>Irfan Nazir - Portfolio</title>
     <script src="scripts/styleManager/darkMode.js"></script>
     <script type="module" src="scripts/data/services.js"></script>
     <script type="module" src="scripts/data/contribution.js"></script>
 </head>
 <body>
-    <div class="d-bl1-bg block"></div>
-
-    <div class="d-bl-1 block">
-        <header class="tb">
-            <div class="d-lg-1">
-                <p class="centered us">Irfan Nazir</p>
-            </div>
-            <nav class="n-rl-1">
-                <div wmodel="rb" class="d-rl1-txt rh-1">
-                    <a href="javascript:void(0)">Home</a>
+    <div class="alert" id="alertBox"></div>
+    <div class="desktop">
+        <!-- Topbar -->
+        <div class="d-bl1-bg block"></div>
+        <div class="d-bl-1 block">
+            <header class="tb">
+                <div class="d-lg-1">
+                    <p class="centered us">Irfan Nazir</p>
                 </div>
-                <!-- <div wmodel="rb" class="d-rl1-txt rh-2">
-                    <a href="javascript:void(0)">Skills</a>
-                </div>
-                <div wmodel="rb" class="d-rl1-txt rh-2">
-                    <a href="javascript:void(0)">Projects</a>
-                </div> -->
-                <div wmodel="rb" class="d-rl1-txt rh-1">
-                    <a href="javascript:void(0)">Contact</a>
-                </div>
-            </nav>
-        </header>
-        <div class="d-bl1-intro">
-            <div class="d-bl1-pd adjustable">
-                <div class="d-bl-bl1">
-                    <div class="d-txt-bl1-1">
-                        <p>I am Programmer.</p>
+                <nav class="n-rl-1">
+                    <div wmodel="rb" class="d-rl1-txt rh-1" onclick="makeContact()">
+                        <a href="javascript:void(0)">Home</a>
                     </div>
-                    <div class="d-txt-bl1-2">
-                        <p>"I help entrepreneurs and business leaders bring their ideas to life by building tailored websites and applications. Harmonizing technology with vision."</p>
+                    <!-- <div wmodel="rb" class="d-rl1-txt rh-2">
+                        <a href="javascript:void(0)">Skills</a>
                     </div>
-                    <div class="d-rl-bl1-2 centered">
-                        <div class="d-pc-rl2">
-                            <a href="https://www.instagram.com/" target="_blank">
-                                <div class="si centered">
-                                    <i class="fab fa-instagram"></i>
-                                </div>
-                            </a>
+                    <div wmodel="rb" class="d-rl1-txt rh-2">
+                        <a href="javascript:void(0)">Projects</a>
+                    </div> -->
+                    <div wmodel="rb" class="d-rl1-txt rh-1">
+                        <a href="javascript:void(0)">Contact</a>
+                    </div>
+                </nav>
+            </header>
+            <div class="d-bl1-intro">
+                <div class="d-bl1-pd adjustable">
+                    <div class="d-bl-bl1">
+                        <div class="d-txt-bl1-1">
+                            <p>I am Programmer.</p>
                         </div>
-                        <div class="d-pc-rl2">
-                            <a href="https://www.facebook.com/" target="_blank">
-                                <div class="si centered">
-                                    <i class="fab fa-facebook"></i>
-                                </div>
-                            </a>
+                        <div class="d-txt-bl1-2">
+                            <p>"I help entrepreneurs and business leaders bring their ideas to life by building tailored websites and applications. Harmonizing technology with vision."</p>
                         </div>
-                        <div class="d-pc-rl2">
-                            <a href="https://www.linkedin.com/" target="_blank">
-                                <div class="si centered">
-                                    <i class="fab fa-linkedin"></i>
-                                </div>
-                            </a>
+                        <div class="d-rl-bl1-2 centered">
+                            <div class="d-pc-rl2">
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <div class="si centered">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="d-pc-rl2">
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <div class="si centered">
+                                        <i class="fab fa-facebook"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="d-pc-rl2">
+                                <a href="https://www.linkedin.com/" target="_blank">
+                                    <div class="si centered">
+                                        <i class="fab fa-linkedin"></i>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="d-bl1-pp"></div>
             </div>
-            <div class="d-bl1-pp"></div>
         </div>
-    </div>
-    
-    <div class="d-bl-2 block">
-        <div class="d-txt-pa centered us"><h1>My Quality Services</h1></div>
-        <div class="d-lss-bl2 centered">
-            <nav wmodel="services" class="n-lss-bl2" id="model"></nav>
+        <!-- Quality Services -->
+        <div class="d-bl-2 block">
+            <div class="d-txt-pa centered us"><h1>My Quality Services</h1></div>
+            <div class="d-lss-bl2 centered">
+                <nav wmodel="services" class="n-lss-bl2" id="model"></nav>
+            </div>
         </div>
-    </div>
-
-    <div class="d-bl1-bg block" style="min-height: 140vh;"></div>
-    <div class="d-bl-3 block adjustable" style="min-height: 120vh;">
-        <div class="d-txt-pa-bl3 centered us"><h1>Personal Achievement</h1></div>
-        <div class="d-lss-bl3">
-            <div class="d-c1-lss centered">
-                <div class="d-c2-lss">
-                    <h2 class="centered">Ex-DSON Compiler</h2>
-                    <p>This software delivers unparalleled efficiency through direct system-level access, bypassing unnecessary abstraction layers for maximum performance. Designed for developers and power users who demand raw speed, it operates with minimal overhead while maintaining precise control over hardware resources. The lightweight architecture ensures rapid execution for time-sensitive tasks, whether for low-latency data processing, embedded systems, or high-performance computing...</p>
+        <!-- Personal Achievement -->
+        <div class="d-bl1-bg block" style="min-height: 140vh;"></div>
+        <div class="d-bl-3 block adjustable" style="min-height: 120vh;">
+            <div class="d-txt-pa-bl3 centered us"><h1>Personal Achievement</h1></div>
+            <div class="d-lss-bl3">
+                <div class="d-c1-lss centered">
+                    <div class="d-c2-lss">
+                        <h2 class="centered">Ex-DSON Compiler</h2>
+                        <p>This software delivers unparalleled efficiency through direct system-level access, bypassing unnecessary abstraction layers for maximum performance. Designed for developers and power users who demand raw speed, it operates with minimal overhead while maintaining precise control over hardware resources. The lightweight architecture ensures rapid execution for time-sensitive tasks, whether for low-latency data processing, embedded systems, or high-performance computing...</p>
+                    </div>
                 </div>
-            </div>
-            <div class="d-c1-lss centered">
-                <div class="d-c2-lss">
-                    <h2 class="centered">Collection Library</h2>
-                    <p>This Cython-based library is designed to enhance Python performance by integrating optimized C extensions, enabling direct low-level system access and high-efficiency execution. It likely accelerates computationally intensive tasks, such as data processing, mathematical operations, or real-time system interactions, by leveraging Cython’s ability to compile Python-like code into fast C binaries. The library may include pre-built modules for specific use cases—such as ...</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="d-bl-4 block">
-        <div class="d-ge-1">
-            <h1 class="us" >Github Contribution</h1>
-        </div>
-        <div class="d-ge-2">
-            <div class="d-ls-ge2 centered">
-                <div class="d-bl-ls-ge2 adjustable" id="contributionTable">
-                    
+                <div class="d-c1-lss centered">
+                    <div class="d-c2-lss">
+                        <h2 class="centered">Collection Library</h2>
+                        <p>This Cython-based library is designed to enhance Python performance by integrating optimized C extensions, enabling direct low-level system access and high-efficiency execution. It likely accelerates computationally intensive tasks, such as data processing, mathematical operations, or real-time system interactions, by leveraging Cython’s ability to compile Python-like code into fast C binaries. The library may include pre-built modules for specific use cases—such as ...</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- <div class="d-txt-sh"><h1>Github Contribution</h1></div> -->
+        <!-- Github contribution -->
+                
+        <div class="d-bl-4 block">
+            <div class="d-ge-1">
+                <h1 class="us" >Github Contribution</h1>
+            </div>
+            <div class="d-ge-2">
+                <div class="d-ls-ge2 centered">
+                    <div class="d-bl-ls-ge2 adjustable" id="contributionTable"></div>
+                </div>
+            </div>
+        </div>
+       
+        <footer class="d-f">
+            <div class="d-rc-1">
+                <p>Privacy Policy</p>
+                <p>Terms of Services</p>
+                <p>About Me</p>
+            </div>
+            <div class="d-rc-2 centered">
+                <p>irrfannazirofficial@gmail.com</p>
+            </div>
+        </footer>
     </div>
-
-    <footer class="d-f">
-        <div class="d-rc-1">
-            <p>Privacy Policy</p>
-            <p>Terms of Services</p>
-            <p>About Me</p>
-        </div>
-        <div class="d-rc-2 centered">
-            <p>irrfannazirofficial@gmail.com</p>
-        </div>
-    </footer>
 
     
 </body>
